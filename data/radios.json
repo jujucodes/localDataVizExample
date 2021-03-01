@@ -1,0 +1,286 @@
+{
+    "data":[
+        {
+            "frequency":"88.5",
+            "name":"Fierte Haitenne FM",
+            "genre":["Konpa"],
+            "culture":["Haitian"],
+            "language":["Kreyol"],
+            "status":"Active"
+
+        },
+        {
+            "frequency":"89.3",
+            "name":"Radio Telenago",
+            "genre":["Konpa","Hara"],
+            "culture":["Haitian"],
+            "language":["Kreyol"],
+            "status":"Active"
+
+        },
+        {
+            "frequency":"90.1",
+            "name":"S&S",
+            "genre":["Konpa"],
+            "culture":["Haitian"],
+            "language":["Kreyol"],
+            "status":"Currently off air, Online only"
+
+        },
+        {
+            "frequency":"90.5",
+            "name":"Radio Comedy",
+            "genre":["Konpa"],
+            "culture":["Haitian"],
+            "language":["Kreyol"],
+            "status":"Active"
+
+        },
+        {
+            "frequency":"90.9",
+            "name":"Radio Independans",
+            "genre":["Konpa"],
+            "culture":["Haitian"],
+            "language":["Kreyol"],
+            "status":"Active"
+
+        },
+        {
+            "frequency":"91.7",
+            "name":"La Voix du Peuple/Signal FM",
+            "genre":["Konpa"],
+            "culture":["Haitian"],
+            "language":["Kreyol"],
+            "status":"Active"
+
+        },
+        {
+            "frequency":"93.3",
+            "name":"Groove FM",
+            "genre":["Konpa","Rara"],
+            "culture":["Haitian"],
+            "language":["Kreyol"],
+            "status":"Sporadic"
+
+        },
+        {
+            "frequency":"91.9",
+            "name":"Mystery Orthodox Jewish Station",
+            "genre":["Mizrahi"],
+            "culture":["Orthodox Jewish"],
+            "language":["English"],
+            "religion":"Haredi,Orthodox Jewish",
+            "status":"Defunct"
+
+        },
+        {
+            "frequency":"97.5",
+            "name":"WMIU",
+            "genre":["R&B","Soul"],
+            "language":["English"],
+            "status":"Defunct"
+
+        },
+        {
+            "frequency":"99.7",
+            "name":"Mistery Non-Stop Music Station",
+            "genre":["R&B","Reggae"],
+            "culture":["Jamaican","Pan-Caribbean"],
+            "status":"Active"
+
+        },
+        {
+            "frequency":"94.9",
+            "name":"Wei-vybz Radio",
+            "genre":["Reggae","Soca"],
+            "culture":["Grenadian"],
+            "language":["English"],
+            "status":"Sporadic"
+
+        },
+        {
+            "frequency":"97.5",
+            "name":"Vybz Radio",
+            "genre":["Reggae","Soca"],
+            "culture":["Pan-Caribbean"],
+            "language":["English"],
+            "status":"Moved to 94.9"
+
+        },
+        {
+            "frequency":"97.5",
+            "name":"FireStation",
+            "genre":["Reggae","Soca"],
+            "culture":["Pan-Caribbean"],
+            "language":["English"],
+            "status":"Displaced from 104.7"
+
+        },
+        {
+            "frequency":"97.7",
+            "name":"Full Effect Radio",
+            "genre":["Reggae","Soca"],
+            "culture":["Pan-Caribbean"],
+            "language":["English"],
+            "status":"Active"
+
+        },
+        {
+            "frequency":"98.1",
+            "name":"Vybezupradio",
+            "genre":["Reggae"],
+            "culture":["Jamaican"],
+            "language":["English"],
+            "status":"Currently off air, Online only"
+
+        },
+        {
+            "frequency":"98.5",
+            "name":"Global Medz Radio",
+            "genre":["Reggae","Soca"],
+            "culture":["Pan-Caribbean"],
+            "language":["English"],
+            "status":"Currently off air, Online only"
+
+        },
+        {
+            "frequency":"99.9",
+            "name":"Triple Nine",
+            "genre":["Reggae","Soca"],
+            "culture":["Pan-Caribbean"],
+            "language":["English"],
+            "status":"Active"
+
+        },
+        {
+            "frequency":"100.7",
+            "name":"Irie Storm Radio",
+            "genre":["Reggae"],
+            "culture":["Jamaican"],
+            "language":["English"],
+            "status":"Active"
+
+        },
+        {
+            "frequency":"103.1",
+            "name":"Live 103.1",
+            "genre":["Reggae","Soca"],
+            "culture":["Jamaican"],
+            "language":["English"],
+            "status":"Sporadic"
+
+        },
+        {
+            "frequency":"104.7",
+            "name":"Fire Station",
+            "genre":["Reggae","Soca"],
+            "culture":["Pan-Caribbean"],
+            "language":["English"],
+            "status":"Defunct"
+
+        },
+        {
+            "frequency":"107.9",
+            "name":"Flavastation",
+            "genre":["Reggae","Soca"],
+            "culture":["Pan-Caribbean"],
+            "language":["English"],
+            "status":"Defunct"
+
+        },
+        {
+            "frequency":"91.9",
+            "name":"True Caribbean Radio",
+            "genre":["Soca"],
+            "culture":["Pan-Caribbean"],
+            "language":["English"],
+            "status":"Defunct"
+
+        },
+        {
+            "frequency":"94.3",
+            "name":"Royal Radio",
+            "genre":["Soca"],
+            "culture":["Pan-Caribbean","Trinidadian"],
+            "language":["English"],
+            "status":"Active"
+
+        },
+        {
+            "frequency":"94.3",
+            "name":"Switch FM",
+            "genre":["Soca"],
+            "culture":["Pan-Caribbean","Trinidadian"],
+            "language":["English"],
+            "status":"Defunct"
+
+        },
+        {
+            "frequency":"94.5",
+            "name":"Hypefmhd",
+            "genre":["Soca"],
+            "culture":["Pan-Caribbean","Trinidadian"],
+            "language":["English"],
+            "status":"Defunct"
+
+        },
+        {
+            "frequency":"98.1",
+            "name":"Blaze, the Voice of the Caribbean",
+            "genre":["Soca"],
+            "culture":["Pan-Caribbean"],
+            "language":["English"],
+            "status":"Active"
+
+        },
+        {
+            "frequency":"99.3",
+            "name":"Star FM",
+            "genre":["Soca"],
+            "culture":["Grenadian"],
+            "language":["English"],
+            "status":"Defunct"
+
+        },
+        {
+            "frequency":"91.7",
+            "name":"Turku Radiyo Relay",
+            "genre":["Turkish"],
+            "culture":["Turkish"],
+            "language":["Turkish"],
+            "status":"Defunct"
+
+        },
+        {
+            "frequency":"92.5",
+            "name":"Radio Elegance",
+            "culture":["Haitian"],
+            "language":["Kreyol"]
+
+
+        },
+        {
+            "frequency":"88.5",
+            "name":"Rabbi Amnon Yitzchak Radio",
+            "culture":["Israeli,Sephardic"],
+            "language":["Hebrew"],
+            "religion":"Haredi,Orthodox Jewish",
+            "status":"Defunct"
+
+        },
+        {
+            "frequency":"99.3",
+            "name":"New Radio",
+            "culture":["Pan-Caribbean"],
+            "status":"Active"
+
+        },
+        {
+            "frequency":"101.5",
+            "name":"Brooklyn Mix",
+            "culture":["Trinidadian"],
+            "status":"Very Sporadic"
+
+        }
+    ]
+}

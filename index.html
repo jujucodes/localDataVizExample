@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pirate Radios</title>
+    <script src="https://d3js.org/d3.v6.js"></script>
+    <style type="text/css">
+
+        div.bar {
+            display: inline-block;
+            width: 50px;
+            height: 75px;	/* Gets overriden by D3-assigned height below */
+            margin-right: 2px;
+            background-color: rgb(68, 10, 161);
+        }
+
+    </style>
+    </head>
+<body>
+    <script type="text/javascript">
+
+    let stations = [];
+    let names = [];
+    let genres = [];
+
+    d3.json("data/radios.json").then(function(data){
+        let entries = data.data;
+        for(let i = 0; i < entries.length; i++){
+            stations.push(entries[i].frequency);
+            names.push(entries[i].name);
+            genres.push(entries[i].genre);
+        }
+        console.log(genres);
+        drawBars();
+    });
+    function drawBars()
+    {   
+
+        d3.select("body").selectAll("div")
+                                    .data(names)
+                                    .enter()
+                                    .append("div")
+                                    .attr("class","bar")
+                                    .style("height",function(d){
+                                        let barHeight = d*15;
+                                        return barHeight +"px";
+                                    })
+            .on("click",function(a,d){
+                let genreIndex = genres.indexOf(d);
+                document.getElementById("Genres").innerHTML = genres[genreIndex];
+            })
+            .on("mouseover",function(a,d){
+                let nameIndex = names.indexOf(d);
+                document.getElementById("Name").innerHTML = names[nameIndex]; 
+            })
+    }    
+</script>
+<p id="Name">Hover over each bar to display the Name.</p>
+<p id="Genres">Click on each bar to display the genre.</p>
+<br>
+</body>
+</html>
