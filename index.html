@@ -47,13 +47,16 @@
                                         let barHeight = d*15;
                                         return barHeight +"px";
                                     })
-            .on("click",function(a,d){
-                let genreIndex = genres.indexOf(d);
-                document.getElementById("Genres").innerHTML = genres[genreIndex];
-            })
+            
             .on("mouseover",function(a,d){
                 let nameIndex = names.indexOf(d);
+             
                 document.getElementById("Name").innerHTML = names[nameIndex]; 
+            })
+            .on("click",function(a,d){
+                let genreIndex = names.indexOf(d);
+             
+                document.getElementById("Genres").innerHTML = genres[genreIndex]; 
             })
     }    
 </script>
